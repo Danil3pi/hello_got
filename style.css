@@ -1090,12 +1090,25 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .inner_footer{
-    fisplay: flex;
+    display: flex;
+    justify-content: space-between;
+
     padding-bottom: 65px;
+
+    color: #ccc;
 }
+
 
 .footer__col--first{
     width: 40%;
+}
+
+.footer__col--second{
+    width: 29%;
+}
+
+.footer__col--trird{
+    width: 22%;
 }
 
 .footer_logo{
@@ -1112,6 +1125,7 @@ h1, h2, h3, h4, h5, h6{
     color: #999;
 
     margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .footer_social{
@@ -1146,6 +1160,93 @@ h1, h2, h3, h4, h5, h6{
 
     padding: 0 10px;
 }
+
+
+.footer_title{
+    margin: 40px 0;
+
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #333;
+}
+
+/*Blogs*/
+.blogs_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.blog_img{
+    width: 120px;
+    height: 80px;
+}
+
+
+.blogs_content{
+    padding-left: 20px;
+}
+
+
+.blogs_title{
+    font-size: 12px;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.1;
+}
+
+
+.blogs_title:hover{
+    text-decoration: underline;
+}
+
+
+.blogs_date{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 300;
+    color:#999;
+}
+
+/* Instagramm*/
+.instagram{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between; 
+}
+
+.instagram_item{
+    width: 32%;
+
+    border-bottom: 1px solid #fff;
+}
+
+
+.instagram_item img{
+    display: block;
+}
+
+/* Copyright*/
+.copyright{
+    border-top: 1px solid #999;
+
+    padding: 20px; 
+
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+}
+
+.copyright span{
+    color: #f38181;
+}
+
+
+
+
+
 
 
 /* Surbscribe */
